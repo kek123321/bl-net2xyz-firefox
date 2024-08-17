@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+      "name": "BeatLeader Redirector",
+  "version": "1.0",
+  "description": "Redirects beatleader.net to beatleader.xyz",
+  "icons": {
+    "48": "icons/bl.png"
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://beatleader.net/*"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
